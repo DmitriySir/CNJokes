@@ -1,0 +1,19 @@
+.joke__card {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .joke__text {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .joke__id {
+    color: #666;
+    font-size: 14px;
+  }
+  
