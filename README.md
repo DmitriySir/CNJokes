@@ -1,1 +1,1 @@
-https://chuckn-pl7gyp90a-dmitriysirs-projects.vercel.app/
+https://chuckn-dmitriysirs-projects.vercel.app/
