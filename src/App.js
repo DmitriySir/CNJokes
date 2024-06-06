@@ -37,10 +37,14 @@ function App() {
     return <h3>Идёт загрузка</h3>;
   }
 
+  if (error) {
+    return <h3>Ошибка</h3>;
+  }
+
   return (
     <>
       <input type="text" onChange={search} placeholder="Поиск шуток"/>
-      {joke.total && <p> Найдено шуток по запросу: {joke.total}</p>}
+      {searchTerm.length > 3 && <p> Найдено шуток по запросу: {joke.total}</p>}
       {searchTerm.length > 3 && joke.total && <JokesItem data={joke} />}
     </>
   );
